@@ -1,0 +1,43 @@
+{
+  "name": "nuxt3-starter-kit",
+  "description": "nuxt3 starter with typescript and tailwindcss",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:buithaibinh/nuxt3-starter.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Binh Bui",
+    "email": "buithaibinh@gmail.com"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.6.4",
+    "@heroicons/vue": "^1.0.6",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "nuxt": "^3.0.0-rc.3",
+    "nuxt-windicss": "^2.3.2",
+    "postcss": "8.4.7",
+    "postcss-loader": "^6.2.1",
+    "prettier": "^2.6.2",
+    "sass": "1.49.9",
+    "sass-loader": "^12.4.0",
+    "typescript": "^4.5.2",
+    "windicss-analysis": "^0.3.5"
+  }
+}
